@@ -6,44 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana</title>
     <style>
+
+        *{
+            margin:0px;
+        }
         #button{
             background-color: yellow;
             color:black;
-            padding:0.2rem;
+            padding:1rem;
             border-radius: 0.5rem;
             border:2px solid black;
             margin:0.9rem;
+            margin-left:3rem;
+            font-family: 'Kalam', cursive;
 
 
         }
+
+        nav{
+            margin:0px;
+            background-color: yellow;
+            padding:1rem;
+
+        }
+        nav h1{
+            text-align: center;
+        }
+
+        footer{
+            background-color: yellow;
+            margin-top:2rem;
+            padding:1rem;
+
+        }
+        footer h3{
+            text-align: center;
+
+        }
+        footer p{
+            margin:0.5rem;
+            padding-left: 15rem;
+            padding-right: 15rem;
+            text-align: center;
+
+        }
+    
         #txtInput{
-            width:90%;
+            width:80%;
             height:20vh;
             display:block;
-            margin:1rem;
+            margin:3rem;
             padding:1rem;
+            font-family: 'Kalam', cursive;
 
         }
         #output{
             border:1px solid black;
-            margin:1rem;
+            margin:3rem;
             height:20vh;
-            width:90%;
+            width:80%;
             display:block;
             padding:1rem;
+            font-family: 'Kalam', cursive;
         }
+  
+        body{
+            margin:0px;
+            font-family: 'Kalam', cursive;
+        }
+        div{
+          
+            margin:3rem;
+        }
+
+
+    
     </style>
 </head>
 
 <body>
+    <nav>
+        <h1>Banana Talk</h1>
+
+    </nav>
     
 
     <textArea id="txtInput" placeholder="Put your text in English and we will convert it into Banana!"></textArea>
-    <button id="button">Translate</button>
+    <button id="button">Translate to Banana</button>
+   
+   
     <div>Output will come here 👇</div>
     <div id="output">
 
     </div>
+
+    <footer>
+        <h3>About</h3>
+        <p>Are you a minions fan? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana Language.</p>
+    </footer>
     
 
 
