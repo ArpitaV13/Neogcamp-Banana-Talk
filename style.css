@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+}
+body{
+    margin:0px;
+    font-family: 'Kalam', cursive;
+    max-height:100vh;
+    text-align: center;
+}
+#button{
+    background-color: yellow;
+    color:black;
+    padding:1rem;
+    border-radius: 0.5rem;
+    border:2px solid black;
+    margin:0.9rem;
+    margin-left:3rem;
+    font-family: 'Kalam', cursive;
+    cursor:pointer;
+
+
+}
+
+nav{
+    margin:0px;
+    background-color: yellow;
+    padding:1rem;
+
+}
+nav h1{
+    text-align: center;
+}
+
+footer{
+    background-color: yellow;
+    margin-top:2rem;
+    padding:2rem;
+
+}
+footer h3{
+    text-align: center;
+
+}
+footer p{
+    margin: 0.5rem 10rem;
+    text-align: center;
+
+}
+
+#txtInput{
+    width:60%;
+    height:15vh;
+    display:block;
+    margin:1rem auto;
+    padding:1rem;
+    font-family: 'Kalam', cursive;
+
+}
+#output{
+    border:1px solid black;
+    margin:1rem auto;
+    height:15vh;
+    width:60%;
+    display:block;
+    padding:1rem;
+    font-family: 'Kalam', cursive;
+}
+
+div{
+  
+    margin:2rem;
+}
